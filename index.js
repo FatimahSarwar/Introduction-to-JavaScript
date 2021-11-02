@@ -177,7 +177,7 @@ function game(user, computer){
     return 'You lose!'
   }
 }
-console.log(game('rock', computer))
+//console.log(game('rock', computer))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -191,10 +191,10 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(kilometers){
+  return kilometers *  0.62137
 }
-
+//console.log(miles(2))
 
 
 //Task 5b - Feet to CM
@@ -205,10 +205,10 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(CM){
+  return CM * 30.48
 }
-
+console.log(feet(2))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
